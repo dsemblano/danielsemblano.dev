@@ -1,0 +1,65 @@
+<section
+    id="contact"
+    class="w-full border-t border-[#ffffff10] py-12 text-white"
+>
+    <div class="mx-auto max-w-5xl">
+        <h2 class="shiny-sec mb-2 text-lg text-[var(--sec)]">Let's talk</h2>
+        <h3 class="text-w mb-6 text-4xl font-medium md:text-5xl">Contact</h3>
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div class="text-[var(--white-icon)]">
+                <p class="mb-4">
+                    Have a question or a project in mind? Feel free to reach
+                    out.
+                </p>
+                <div class="flex items-center gap-2">
+                    <span>Location:</span>
+                    <span class="text-[var(--white)]">Brazil</span>
+                </div>
+            </div>
+
+            <form id="contact-form">
+                <input name="name" placeholder="Name" required />
+                <input name="email" type="email" placeholder="Email" required />
+                <textarea name="message" placeholder="Message" required
+                ></textarea>
+                <button type="submit">Send</button>
+            </form>
+
+            <script lang="ts">
+                const form =
+                    document.querySelector<HTMLFormElement>("#contact-form");
+
+                if (!form) {
+                    throw new Error("Contact form not found in DOM");
+                }
+
+                form.addEventListener("submit", async (e) => {
+                    e.preventDefault();
+
+                    const data = Object.fromEntries(new FormData(form));
+
+                    const res = await fetch("/api/contact", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify(data),
+                    });
+
+                    if (res.ok) {
+                        form.reset();
+                        alert("Message sent successfully ✅");
+                    } else {
+                        alert("Something went wrong ❌");
+                    }
+                });
+            </script>
+
+            {
+                Astro.url.searchParams.get("success") === "true" && (
+                    <p class="text-green-600">
+                        Message sent successfully. I’ll get back to you soon.
+                    </p>
+                )
+            }
+        </div>
+    </div>
+</section>
