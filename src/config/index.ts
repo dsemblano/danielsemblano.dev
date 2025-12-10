@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "High-performance JAMstack and WordPress e-commerce websites, built with security, semantic HTML and SEO best practices. Available for work — get in touch.",
   lang: "en",
-  siteLogo: "/eu1-small.jpg",
+  siteLogo: "/danielsemblano-small.webp",
   navLinks: [
     { text: "Projects", href: "#projects" },
     { text: "Experience", href: "#experience" },
@@ -143,6 +143,6 @@ export const SITE_CONTENT: SiteContent = {
       I'm a Full Stack Developer who builds modern, performant, and accessible websites using Astro, React, Node.js, and the Roots.io stack (Bedrock, Sage, and Trellis: a clean CI/CD workflow) for Wordpress and Woocommerce sites.
       My work spans from frontend design systems and SEO-driven sites to backend automation, WordPress / WooCommerce customizations etc. I enjoy owning the full lifecycle of a project: planning, architecture, UI/UX, development, optimization, and deployment.
     `,
-    image: "/eu1.jpg",
+    image: "/daniesemblano.webp",
   },
 };
