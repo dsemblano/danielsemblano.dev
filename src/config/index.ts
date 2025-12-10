@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Daniel Semblano",
     specialty: "Full Stack Developer and SEO specialist",
     summary:
-      "For high-performance JAMstack and WordPress e-commerce sites. I build secure, semantic, and highly available websites using Astro, React, Node.js and the Roots.io stack (Trellis, Bedrock, Sage) for WordPress / Woocommerce sites.",
+      "For high performance JAMstack and WordPress e-commerce sites. I build secure, semantic, and highly available websites using Astro, React, Node.js and the Roots.io stack (Trellis, Bedrock, Sage) for WordPress / Woocommerce sites.",
     email: "hello@danielsemblano.dev",
   },
   experience: [ 
@@ -38,7 +38,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "01/02/2025",
       endDate: "ongoing",
       summary: [
-        "A startup from Amapá - Brazil dedicated to honey and sustainable development in the Amazon, focusing on meliponiculture (stingless beekeeping) and solutions that promote the bioeconomy.",
+        "A startup from Amapá, Brazil dedicated to honey and sustainable development in the Amazon, focusing on meliponiculture (stingless beekeeping) and solutions that promote the bioeconomy.",
         "Website redesigned, UI UX improvements and SEO.",
       ],
     },
@@ -140,7 +140,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      I'm a Full-Stack Developer who builds modern, performant, and accessible websites using Astro, React, Node.js, and the Roots.io stack (Bedrock, Sage, and Trellis: a clean CI/CD workflow) for Wordpress and Woocommerce sites.
+      I'm a Full Stack Developer who builds modern, performant, and accessible websites using Astro, React, Node.js, and the Roots.io stack (Bedrock, Sage, and Trellis: a clean CI/CD workflow) for Wordpress and Woocommerce sites.
       My work spans from frontend design systems and SEO-driven sites to backend automation, WordPress / WooCommerce customizations etc. I enjoy owning the full lifecycle of a project: planning, architecture, UI/UX, development, optimization, and deployment.
     `,
     image: "/eu1.jpg",
