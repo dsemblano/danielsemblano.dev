@@ -111,28 +111,28 @@ export const SITE_CONTENT: SiteContent = {
   projects: [
     {
       name: "Néctar da Amazônia",
-      summary: "A startup based in Amapá, Brazil, working to foster sustainable development in the Amazon through honey production, meliponiculture (stingless beekeeping), and bioeconomy focused initiatives. Website built with roots.io stack (WordPress) and WooCommerce",
+      summary: "Brazilian startup working to foster sustainable development in the Amazon through honey stingless beekeeping production (meliponiculture) and bioeconomy focused initiatives. Website built with roots.io stack (WordPress) and WooCommerce",
       linkPreview: "https://nectardaamazonia.com.br/",
       linkSource: "https://github.com/dsemblano/nectardaamazonia",
       image: "/projetonectar.png",
     },
     {
       name: "Tijolo CWB Restaurante",
-      summary: "An contemporary slow food restaurant, basead in Curitiba - Paraná Brazil, focused on delivering high-quality dishes made with locally sourced ingredients. Website built with roots.io stack (WordPress)",
+      summary: "An slow food contemporary restaurant, focused on delivering high-quality dishes made with locally sourced ingredients. Website built with roots.io stack (WordPress).",
       linkPreview: "https://tijolocwb.com.br/",
       linkSource: "https://github.com/dsemblano/tijolocwb",
       image: "/tijolo2.png",
     },
     {
       name: "SFCO 179 Multispace",
-      summary: "Multispace basead in Curitiba - Paraná Brazil, that offers a restaurant (Tijolo CWB Restaiurant), coffee shop, event space, chocolate factory, video and photo rental in the Historic Center of Curitiba. Website built with roots.io stack (WordPress)",
+      summary: "Multispace basead in Brazil that offers a restaurant (Tijolo CWB Restaiurant), coffee shop, event space, chocolate factory, video and photo rental in the Historic Center of Curitiba. Website built with roots.io stack (WordPress).",
       linkPreview: "https://sfco179.com.br/",
       linkSource: "https://github.com/dsemblano/sfco179",
       image: "/sfco.png",
     },
     {
       name: "Incrível História",
-      summary: "Website built for  historical content and facts in a serious, educational, and impartial manner. Brazilian and World history. Website built with roots.io stack (WordPress)",
+      summary: "Website built for historical content and facts in a serious, educational, and impartial manner. Brazilian and World history. Built with roots.io stack (WordPress)",
       linkPreview: "https://incrivelhistoria.com.br/",
       linkSource: "https://github.com/dsemblano/incrivelhistoria.com.br",
       image: "/ih.png", 
