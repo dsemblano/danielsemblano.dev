@@ -6,6 +6,8 @@ import sitemap from "@astrojs/sitemap";
 
 import robotsTxt from "astro-robots-txt";
 
+import partytown from "@astrojs/partytown";
+
 // https://astro.build/config
 
 export default defineConfig({
@@ -14,5 +16,5 @@ export default defineConfig({
   },
 
   site: 'https://danielsemblano.dev',
-  integrations: [sitemap(), robotsTxt()],
+  integrations: [sitemap(), robotsTxt(), partytown()],
 });
