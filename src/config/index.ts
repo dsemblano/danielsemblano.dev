@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Daniel Semblano — Full Stack Developer",
+  title: "Daniel Semblano - Full Stack Developer and SEO specialist",
   author: "Daniel Semblano",
   description:
-    "Full Stack Developer with experience in SEO, JAMstack (Astro, React, Node.js), and the Roots.io stack (Trellis, Bedrock, Sage) for WordPress and WooCommerce e-commerces websites, delivering performant, scalable, and maintainable web solutions.",
+    "High-performance JAMstack and WordPress e-commerce websites, built with security, semantic HTML and SEO best practices. Available for work — get in touch.",
   lang: "en",
   siteLogo: "/eu1-small.jpg",
   navLinks: [
