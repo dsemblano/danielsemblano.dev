@@ -118,14 +118,14 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Tijolo CWB Restaurante",
-      summary: "An slow food contemporary restaurant, focused on delivering high-quality dishes made with locally sourced ingredients. Website built with roots.io stack (WordPress).",
+      summary: "An slow food contemporary restaurant, focused on delivering high quality dishes made with locally sourced ingredients. Website built with roots.io stack (WordPress).",
       linkPreview: "https://tijolocwb.com.br/",
       linkSource: "https://github.com/dsemblano/tijolocwb",
       image: "/tijolo2.png",
     },
     {
       name: "SFCO 179 Multispace",
-      summary: "Multispace basead in Brazil that offers a restaurant (Tijolo CWB Restaiurant), coffee shop, event space, chocolate factory, video and photo rental in the Historic Center of Curitiba. Website built with roots.io stack (WordPress).",
+      summary: "Multispace basead in Brazil that offers a restaurant (Tijolo CWB Restaurant), a coffee shop, a event space and a chocolate factory in the Historic Center of Curitiba. Website built with roots.io stack (WordPress).",
       linkPreview: "https://sfco179.com.br/",
       linkSource: "https://github.com/dsemblano/sfco179",
       image: "/sfco.png",
