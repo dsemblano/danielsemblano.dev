@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "High-performance JAMstack and WordPress e-commerce websites, built with security, semantic HTML and SEO best practices. Available for work — get in touch.",
   lang: "en",
-  siteLogo: "/danielsemblano-small.webp",
+  siteLogo: "/ds.png",
   navLinks: [
     { text: "Projects", href: "#projects" },
     { text: "Experience", href: "#experience" },
