@@ -38,6 +38,16 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "01/02/2025",
       endDate: "ongoing",
       summary: [
+        "A startup from Amapá - Brazil dedicated to honey and sustainable development in the Amazon, focusing on meliponiculture (stingless beekeeping) and solutions that promote the bioeconomy.",
+        "Website redesigned, UI UX improvements and SEO.",
+      ],
+    },
+    {
+      company: "PROS AP",
+      position: "Full Stack Developer",
+      startDate: "26/04/2022",
+      endDate: "30/10/2022",
+      summary: [
         "Creation and development of the websites carloslobato.com.br and pros90amapa.org.br using the Roots.io stack (now deactivated).",
         "Support on social media, administration of the Twitter accounts for both, etc.",
       ],
