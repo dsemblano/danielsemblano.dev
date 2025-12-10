@@ -26,9 +26,9 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Daniel Semblano",
-    specialty: "Full Stack Developer",
+    specialty: "Full Stack Developer and SEO specialist",
     summary:
-      "Full Stack Developer with experience in SEO, JAMstack (Astro, React, Node.js), and the Roots.io stack (Trellis, Bedrock, Sage) for WordPress and WooCommerce e-commerces websites, delivering performant, scalable, and maintainable web solutions.",
+      "For high-performance JAMstack and WordPress e-commerce sites. I build secure, semantic, and highly available websites using Astro, React, Node.js and the Roots.io stack (Trellis, Bedrock, Sage) for WordPress / Woocommerce sites.",
     email: "hello@danielsemblano.dev",
   },
   experience: [ 
@@ -140,9 +140,8 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      I'm a Full-Stack Developer who builds modern, performant, and accessible websites using Astro, React, Node.js, and the Roots.io stack (Bedrock, Sage, and a clean CI/CD workflow) for Wordpress and Woocommerce sites. For years, Linux has been my daily environment, shaping the way I approach development with a focus on clarity, automation, and maintainability.
-
-My work spans from frontend design systems and SEO-driven sites to backend automation, WooCommerce customizations, and ACF-powered solutions. I enjoy owning the full lifecycle of a project: planning, architecture, UI/UX, development, optimization, and deployment.
+      I'm a Full-Stack Developer who builds modern, performant, and accessible websites using Astro, React, Node.js, and the Roots.io stack (Bedrock, Sage, and Trellis: a clean CI/CD workflow) for Wordpress and Woocommerce sites.
+      My work spans from frontend design systems and SEO-driven sites to backend automation, WordPress / WooCommerce customizations etc. I enjoy owning the full lifecycle of a project: planning, architecture, UI/UX, development, optimization, and deployment.
     `,
     image: "/eu1.jpg",
   },
