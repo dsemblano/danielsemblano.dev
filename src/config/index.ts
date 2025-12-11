@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Daniel Semblano - Full Stack Developer and SEO specialist",
   author: "Daniel Semblano",
   description:
-    "High performance sites and SEO: secure, semantic, and highly available using Astro, React, or Roots.io stack for WordPress/Woocommerce. Get in touch!",
+    "High-performance, secure and SEO-focused websites built with Astro, React or the Roots.io stack for WordPress and WooCommerce. Get in touch.",
   lang: "en",
   siteLogo: "/ds.png",
   navLinks: [
@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Daniel Semblano",
     specialty: "Full Stack Developer and SEO specialist",
     summary:
-      "I build high-performance sites SEO focused: secure, semantic, and highly available using Astro, React, or Roots.io stack for WordPress and Woocommerce.",
+      "I build high-performance sites SEO-focused: secure, semantic, and highly available using Astro, React, or Roots.io stack for WordPress and Woocommerce.",
     email: "hello@danielsemblano.dev",
   },
   experience: [ 
@@ -140,8 +140,10 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      I'm a Full Stack Developer with more than 15 years of experience building high-performance, secure, and SEO-optimized websites.
-      My work spans from frontend design systems and SEO-driven sites to backend automation, WordPress / WooCommerce customizations etc. I enjoy owning the full lifecycle of a project: planning, architecture, UI/UX, development, optimization, and deployment.
+      I’m a Full-Stack Developer with 15+ years of experience building high-performance, secure, and SEO-optimized websites and applications. Over the years, I’ve worked across the full spectrum of web development: frontend architecture, design systems, UI/UX, backend integrations, DevOps automation, and custom WordPress/WooCommerce ecosystems using modern stacks like Astro, React, Node.js, and Roots.io.
+
+      
+      My approach combines technical depth with attention to detail-semantic HTML, accessibility, performance budgets, security best practices, and maintainable architectures. I enjoy owning projects: understanding the problem, designing a scalable solution, implementing it with high standards, optimizing performance, and deploying with reliability.
     `,
     image: "/daniesemblano.webp",
   },
