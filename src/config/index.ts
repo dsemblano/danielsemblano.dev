@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Daniel Semblano - Full Stack Developer and SEO specialist",
   author: "Daniel Semblano",
   description:
-    "High-performance JAMstack and WordPress e-commerce websites, built with security, semantic HTML and SEO best practices. Available for work — get in touch.",
+    "High performance sites and SEO: secure, semantic, and highly available using Astro, React, or Roots.io stack for WordPress/Woocommerce. Get in touch!",
   lang: "en",
   siteLogo: "/ds.png",
   navLinks: [
@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Daniel Semblano",
     specialty: "Full Stack Developer and SEO specialist",
     summary:
-      "For high performance JAMstack and WordPress e-commerce sites. I build secure, semantic, and highly available websites using Astro, React, Node.js and the Roots.io stack (Trellis, Bedrock, Sage) for WordPress / Woocommerce sites.",
+      "I build high-performance sites SEO focused: secure, semantic, and highly available using Astro, React, or Roots.io stack for WordPress and Woocommerce.",
     email: "hello@danielsemblano.dev",
   },
   experience: [ 
@@ -140,7 +140,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      I'm a Full Stack Developer who builds modern, performant, and accessible websites using Astro, React, Node.js, and the Roots.io stack (Bedrock, Sage, and Trellis: a clean CI/CD workflow) for Wordpress and Woocommerce sites.
+      I'm a Full Stack Developer with more than 15 years of experience building high-performance, secure, and SEO-optimized websites.
       My work spans from frontend design systems and SEO-driven sites to backend automation, WordPress / WooCommerce customizations etc. I enjoy owning the full lifecycle of a project: planning, architecture, UI/UX, development, optimization, and deployment.
     `,
     image: "/daniesemblano.webp",
