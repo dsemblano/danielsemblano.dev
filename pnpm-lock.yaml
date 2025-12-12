@@ -32,9 +32,15 @@ importers:
       astro-robots-txt:
         specifier: ^1.0.0
         version: 1.0.0
+      astro-seo-schema:
+        specifier: ^5.1.0
+        version: 5.1.0(astro@5.16.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2))(schema-dts@1.1.5)
       resend:
         specifier: ^6.5.2
         version: 6.5.2
+      schema-dts:
+        specifier: ^1.1.5
+        version: 1.1.5
       tailwindcss:
         specifier: ^4.1.17
         version: 4.1.17
@@ -833,6 +839,12 @@ packages:
 
   astro-robots-txt@1.0.0:
     resolution: {integrity: sha512-6JQSLid4gMhoWjOm85UHLkgrw0+hHIjnJVIUqxjU2D6feKlVyYukMNYjH44ZDZBK1P8hNxd33PgWlHzCASvedA==}
+
+  astro-seo-schema@5.1.0:
+    resolution: {integrity: sha512-6qN6H7KlzSXNQ9Q+5eUMCYsHuzz+SRDEqQLjRlNaFG+0XE4UdOBSTVorRWHjd5I1LaTc5Btgz26V6RmWEXFfrA==}
+    peerDependencies:
+      astro: ^5.0.0
+      schema-dts: ^1.1.0
 
   astro@5.16.4:
     resolution: {integrity: sha512-rgXI/8/tnO3Y9tfAaUyg/8beKhlIMltbiC8Q6jCoAfEidOyaue4KYKzbe0gJIb6qEdEaG3Kf3BY3EOSLkbWOLg==}
@@ -1765,6 +1777,9 @@ packages:
 
   sax@1.4.3:
     resolution: {integrity: sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==}
+
+  schema-dts@1.1.5:
+    resolution: {integrity: sha512-RJr9EaCmsLzBX2NDiO5Z3ux2BVosNZN5jo0gWgsyKvxKIUL5R3swNvoorulAeL9kLB0iTSX7V6aokhla2m7xbg==}
 
   semver@7.7.3:
     resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
@@ -2917,6 +2932,11 @@ snapshots:
     dependencies:
       valid-filename: 4.0.0
       zod: 3.25.76
+
+  astro-seo-schema@5.1.0(astro@5.16.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2))(schema-dts@1.1.5):
+    dependencies:
+      astro: 5.16.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2)
+      schema-dts: 1.1.5
 
   astro@5.16.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
@@ -4117,6 +4137,8 @@ snapshots:
       suf-log: 2.5.3
 
   sax@1.4.3: {}
+
+  schema-dts@1.1.5: {}
 
   semver@7.7.3: {}
 

@@ -4,6 +4,7 @@ import "@fontsource/be-vietnam-pro";
 import "@fontsource-variable/gabarito";
 import { SITE_CONFIG } from "@config";
 import Footer from "@components/Footer.astro";
+import { Schema } from "astro-seo-schema";
 
 const {
   title,
@@ -28,13 +29,57 @@ const ogImgUrl = canonicalURL + socialImage;
     <meta name="author" content={author} />
     <meta name="viewport" content="width=device-width" />
     <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="android-chrome-192x192.png"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <meta name="generator" content={Astro.generator} />
-    <link rel="canonical" href={canonicalURL}> 
+    <link rel="canonical" href={canonicalURL} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <title>{title}</title>
 
+    <Schema
+      item={{
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Daniel Semblano",
+        jobTitle: "Full-Stack Developer",
+        url: "https://danielsemblano.dev",
+        sameAs: [
+          "https://github.com/dsemblano",
+          "https://linkedin.com/in/danielsemblano",
+        ],
+        alternateName: "Daniel Lourenço Semblano Oliveira",
+        knowsAbout: [
+          "Full-Stack",
+          "SEO",
+          "Front-end",
+          "Back-end",
+          "Programming",
+          "Computer Science",
+          "WordPress",
+          "WooCommerce",
+          "Astro",
+          "React",
+          "Node.js",
+          "Roots.io",
+          "Performance Optimization",
+          "Web Security"
+        ],
+      }}
+    />
+
+     <Schema
+      item={{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "Daniel Semblano — Full-Stack Developer",
+        url: "https://danielsemblano.dev",
+       }}
+    />  
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
@@ -54,18 +99,29 @@ const ogImgUrl = canonicalURL + socialImage;
     </script>
 
     <!-- Google Tag Manager -->
-    <script type="text/partytown" is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NLGL4JQV');</script>
-  <!-- End Google Tag Manager -->
- 
+    <script type="text/partytown" is:inline>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NLGL4JQV");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body class="bg-black font-sans">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLGL4JQV"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NLGL4JQV"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe></noscript
+    >
     <!-- End Google Tag Manager (noscript) -->
 
     <Header siteLogo={siteLogo} navLinks={navLinks} />
