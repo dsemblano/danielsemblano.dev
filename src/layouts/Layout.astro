@@ -5,6 +5,7 @@ import "@fontsource-variable/gabarito";
 import { SITE_CONFIG } from "@config";
 import Footer from "@components/Footer.astro";
 import { Schema } from "astro-seo-schema";
+import { Seo } from 'astro-seo-meta';
 
 const {
   title,
@@ -40,6 +41,21 @@ const ogImgUrl = canonicalURL + socialImage;
     <link rel="canonical" href={canonicalURL} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <title>{title}</title>
+
+    <Seo
+      keywords={['Full-Stack', 'Front-end', 'Back-end', 'WordPress', 'WooCommerce', 'Front-end', 'Astro', 'React', 'Node.js', 'Roots.io', 'Performance Optimization', 'Web Security']}
+      themeColor="#000000"
+      facebook={{
+        image: '/og.png',
+        url: 'https://www.facebook.com/dsemblano',
+        type: 'website'
+      }}
+      twitter={{
+        image: '/og.png',
+        site: '@dsemblano',
+        card: 'summary'
+      }}
+    />
 
     <Schema
       item={{
