@@ -6,6 +6,8 @@ import { SITE_CONFIG } from "@config";
 import Footer from "@components/Footer.astro";
 import { Schema } from "astro-seo-schema";
 import { Seo } from 'astro-seo-meta';
+import CursorGlow from '../components/CursorGlow.astro';
+
 
 const {
   title,
@@ -141,6 +143,8 @@ const ogImgUrl = canonicalURL + socialImage;
     <!-- End Google Tag Manager (noscript) -->
 
     <Header siteLogo={siteLogo} navLinks={navLinks} />
+     
+    
     <main class="mx-auto max-w-3xl px-5">
       <slot />
     </main>
