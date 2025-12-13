@@ -25,8 +25,8 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "High-performance, SEO-focused websites built for scale and reliability",
-    specialty: "Daniel Semblano: Full Stack Developer and SEO specialist",
+    name: "Daniel Semblano - Full Stack Developer and SEO specialist",
+    specialty: "High-performance, SEO-focused websites built for scale and reliability",
     summary:
       "Secure, semantic, and highly available solutions using Astro, React, or the Roots.io stack (Trellis, Bedrock, Sage) for WordPress and WooCommerce, consistently achieving 90+ scores on Google PageSpeed and GTmetrix.",
     email: "hello@danielsemblano.dev",
