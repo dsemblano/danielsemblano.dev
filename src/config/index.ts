@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Daniel Semblano - Full Stack Developer and SEO specialist",
   author: "Daniel Semblano",
   description:
-    "High-performance, secure and SEO-focused websites built with Astro, React or the Roots.io stack for WordPress and WooCommerce. Get in touch.",
+    "High-performance, secure and SEO-focused websites built with Astro, React or the Roots.io stack for WordPress and WooCommerce. Contact me!",
   lang: "en",
   siteLogo: "/ds.png",
   navLinks: [
@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Daniel Semblano",
     specialty: "Full Stack Developer and SEO specialist",
     summary:
-      "I build high-performance sites SEO-focused: secure, semantic, and highly available using Astro, React, or Roots.io stack for WordPress and Woocommerce.",
+      "High-performance sites SEO-focused: secure, semantic, and highly available using Astro, React, or Roots.io stack for WordPress and Woocommerce.",
     email: "hello@danielsemblano.dev",
   },
   experience: [ 
