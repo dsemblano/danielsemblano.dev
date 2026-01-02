@@ -16,7 +16,7 @@
     "@fontsource-variable/gabarito": "^5.1.0",
     "@fontsource/be-vietnam-pro": "^5.1.0",
     "@tailwindcss/vite": "^4.1.17",
-    "astro": "^5.16.4",
+    "astro": "^5.16.6",
     "astro-robots-txt": "^1.0.0",
     "astro-seo-meta": "^5.2.0",
     "astro-seo-schema": "^5.1.0",
